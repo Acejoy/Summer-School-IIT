@@ -19,9 +19,11 @@ Our approachs are as follows:
    1. Train an SVM on the calculated(LBP, GLCM) features of people
    2. Calculate contours of objects on each frame of video
    3. Classify each contour with our trained SVM.
+
 Results: Failed.
 
 2. Approach 2:
    1. Calculate the velocity and direction of moving objects using optical Flow.(Since cars and bikes will significantly higher velocity.)
    2. Take higher( ~95% percentile) of the velocities, those will be of the anomalies like car or bikes .
+
 Results:Success
